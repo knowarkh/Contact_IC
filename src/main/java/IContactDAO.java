@@ -2,12 +2,12 @@ import java.util.ArrayList;
 
 public interface IContactDAO {
 
-	ArrayList<Contact> readAll();
+    ArrayList<Contact> readAll();
 
-	Contact findByName(String nom);
+    Contact findByName(String nom);
 
-	void add(Contact contact);
-	
-	void delete(Contact contact);
+    void add(Contact contact);
+
+    void delete(Contact contact);
 
 }
